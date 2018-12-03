@@ -6,7 +6,7 @@
                }
 
 <torolalana> ::= ;
-               | <voambolana> = <rafitrisa>;
+               | <voambolana> <- <rafitrisa>;
                | raha <valimpanontaniana> dia <torolalana> rtzany <torolalana>;
                | ataovy <torolalana> rmbola <valimpanontaniana>;
                | tapaho;
@@ -25,7 +25,7 @@
 <valimpanontaniana> ::= marina
                       | diso
                       | <rafitrisa> <  <rafitrisa>
-                      | <rafitrisa> == <rafitrisa>
+                      | <rafitrisa> =  <rafitrisa>
                       | <rafitrisa> na <rafitrisa>
                       | <rafitrisa> sy <rafitrisa>
 ```
