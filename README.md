@@ -1,17 +1,16 @@
 # lita
 ```
-<programa> ::= fototra(fidirana) {
-                 <torolalana>
-                 avohay <isa>; 
-               }
+<programa> ::= miditra: <isa>
+               torolalana: <torolalana>
+               mivoaka: <rafitrisa>
 
-<torolalana> ::= ;
-               | <voambolana> <- <rafitrisa>;
-               | raha <valimpanontaniana> dia <torolalana> rtzany <torolalana>;
-               | ataovy <torolalana> rmbola <valimpanontaniana>;
-               | tapaho;
-               | { <torolalana> }
-               | <torolalana> ; <torolalana>
+<torolalana> ::= foana.
+               | <voambolana> <- <rafitrisa>.
+               | raha <hevitra> dia <torolalana> ratszay <torolalana>.
+               | ataovy <torolalana> rambola <hevitra>.
+               | tapaho.
+               | atomboy <torolalana> farano
+               | <torolalana>. <torolalana>
 
 <voambolana> ::= [a-z]+(\d|[a-z]|_)*
 
@@ -24,11 +23,11 @@
               | <rafitrisa> - <rafitrisa>
               | <rafitrisa> / <rafitrisa>
 
-<valimpanontaniana> ::= marina
-                      | diso
-                      | <rafitrisa> <  <rafitrisa>
-                      | <rafitrisa> =  <rafitrisa>
-                      | ( <valimpanontaniana> )
-                      | <valimpanontaniana> na <valimpanontaniana>
-                      | <valimpanontaniana> sy <valimpanontaniana>
+<hevitra> ::= marina
+            | diso
+            | <rafitrisa> <  <rafitrisa>
+            | <rafitrisa> =  <rafitrisa>
+            | ( <hevitra> )
+            | <hevitra> na <hevitra>
+            | <hevitra> sy <hevitra>
 ```
