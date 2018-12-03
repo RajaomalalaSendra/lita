@@ -10,6 +10,7 @@
                | raha <valimpanontaniana> dia <torolalana> rtzany <torolalana>;
                | ataovy <torolalana> rmbola <valimpanontaniana>;
                | tapaho;
+               | { <torolalana> }
                | <torolalana> ; <torolalana>
 
 <voambolana> ::= [a-z]+(\d|[a-z]|_)*
@@ -17,6 +18,7 @@
 <rafitrisa> ::= -?\d+
               | fidirana[\d+]
               | <voambolana>
+              | ( <rafitrisa> )
               | <rafitrisa> + <rafitrisa>
               | <rafitrisa> * <rafitrisa>
               | <rafitrisa> - <rafitrisa>
@@ -26,6 +28,7 @@
                       | diso
                       | <rafitrisa> <  <rafitrisa>
                       | <rafitrisa> =  <rafitrisa>
-                      | <rafitrisa> na <rafitrisa>
-                      | <rafitrisa> sy <rafitrisa>
+                      | ( <valimpanontaniana> )
+                      | <valimpanontaniana> na <valimpanontaniana>
+                      | <valimpanontaniana> sy <valimpanontaniana>
 ```
