@@ -5,7 +5,7 @@
                mivoaka: <rafitrisa>
 
 <torolalana> ::= foana.
-               | <voambolana> <- <rafitrisa>.
+               | <voambolana> lasa <rafitrisa>.
                | raha <hevitra> dia <torolalana> ratszay <torolalana>.
                | ataovy <torolalana> rambola <hevitra>.
                | tapaho.
