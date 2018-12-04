@@ -1,16 +1,16 @@
 # lita
 ```
 <programa> ::= miditra: <isa>
-               torolalana: <torolalana>
+               baiko: <baiko>
                mivoaka: <rafitrisa>
 
-<torolalana> ::= foana.
-               | <voambolana> lasa <rafitrisa>.
-               | raha <hevitra> dia <torolalana> ratszay <torolalana>.
-               | ataovy <torolalana> rambola <hevitra>.
-               | tapaho.
-               | atomboy <torolalana> farano
-               | <torolalana>. <torolalana>
+<baiko> ::= foana.
+          | <voambolana> avadio <rafitrisa>.
+          | raha <vina> dia <baiko> ratszay <baiko>.
+          | ataovy <baiko> rambola <vina>.
+          | tapaho.
+          | atomboy <baiko> farano
+          | <baiko>. <baiko>
 
 <voambolana> ::= [a-z]+(\d|[a-z]|_)*
 
@@ -23,11 +23,11 @@
               | <rafitrisa> - <rafitrisa>
               | <rafitrisa> / <rafitrisa>
 
-<hevitra> ::= marina
-            | diso
-            | <rafitrisa> <  <rafitrisa>
-            | <rafitrisa> =  <rafitrisa>
-            | ( <hevitra> )
-            | <hevitra> na <hevitra>
-            | <hevitra> sy <hevitra>
+<vina> ::= marina
+         | diso
+         | <rafitrisa> <  <rafitrisa>
+         | <rafitrisa> =  <rafitrisa>
+         | ( <vina> )
+         | <vina> na <vina>
+         | <vina> sy <vina>
 ```
