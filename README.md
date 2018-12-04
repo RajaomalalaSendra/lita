@@ -1,6 +1,6 @@
 # lita
 ```
-<programa> ::= miditra: <isa>
+<programa> ::= miditra: \d+
                baiko: <baiko>
                mivoaka: <rafitrisa>
 
