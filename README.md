@@ -5,7 +5,7 @@
                mivoaka: <rafitrisa>
 
 <baiko> ::= foana.
-          | <voambolana> ataovy <rafitrisa>.
+          | <voambolana> soloy <rafitrisa>.
           | raha <vina> dia <baiko> ratszay <baiko>.
           | ataovy <baiko> rambola <vina>.
           | tapaho.
